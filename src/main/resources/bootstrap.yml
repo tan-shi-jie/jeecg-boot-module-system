@@ -1,0 +1,16 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: jeecg-system
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 106.14.14.62:8848
+      config:
+        file-extension: yml
+        server-addr: 106.14.14.62:8848
+        shared-dataids: jeecg-cloud-application-beta.yml
+feign:
+  sentinel:
+    enabled: true
