@@ -67,6 +67,12 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.72</version>
 		</dependency>
+		<dependency>
+			<groupId>org.jeecgframework</groupId>
+			<artifactId>autopoi</artifactId>
+			<version>RELEASE</version>
+			<scope>compile</scope>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
